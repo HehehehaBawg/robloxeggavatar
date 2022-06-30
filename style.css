@@ -28,7 +28,7 @@ html {
 }
 
 #title>nav {
-     margin: 2rem 12rem 0 0;
+     margin: 2rem 0rem 0 3rem;
      display: flex;
      justify-content: space-between;
      width: 20rem;
