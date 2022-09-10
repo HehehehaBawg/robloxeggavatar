@@ -23,6 +23,7 @@ html {
      position: fixed;
      padding: .50rem;
      top: 0px;
+     justify-content: space-between;
 }
 
 #title>* {
@@ -35,7 +36,7 @@ html {
 }
 
 #title>nav {
-     margin: 2rem 0 0 40rem;
+     margin: 2rem 0 0 0;
      display: flex;
      justify-content: space-between;
      width: 20rem;
@@ -158,6 +159,13 @@ footer>h1 {
      footer {
           width: 100%;
           box-sizing: border-box;
+     }
+     
+     #info img, #chapter1 img, #chapter2 img, #theories img {
+          width: 680px;
+          height: 350px;
+          border-radius: 10px;
+          margin-bottom: 20px;
      }
 
 }
